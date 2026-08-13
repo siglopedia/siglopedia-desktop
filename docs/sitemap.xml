@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://siglopedia.example.com/</loc></url>
-  <url><loc>https://siglopedia.example.com/privacy.html</loc></url>
-  <url><loc>https://siglopedia.example.com/terms.html</loc></url>
-  <url><loc>https://siglopedia.example.com/mentions-legales.html</loc></url>
+  <url><loc>https://siglopedia.github.io/siglopedia-desktop/</loc></url>
+  <url><loc>https://siglopedia.github.io/siglopedia-desktop/privacy.html</loc></url>
+  <url><loc>https://siglopedia.github.io/siglopedia-desktop/terms.html</loc></url>
+  <url><loc>https://siglopedia.github.io/siglopedia-desktop/mentions-legales.html</loc></url>
 </urlset>

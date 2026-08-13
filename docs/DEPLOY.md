@@ -62,15 +62,29 @@ L'installateur `.exe` reste hébergé sur GitHub Releases dans tous les cas
 gratuitement) — changez simplement le lien de téléchargement dans
 `index.html` en conséquence.
 
-## Avant de publier — liste de vérification
+## ✅ Statut actuel
 
-- [ ] Remplacer les `[À COMPLÉTER]` dans `mentions-legales.html` et
-      `privacy.html` par vos vraies informations (obligatoire en France).
-- [ ] Remplacer `contact@siglopedia.example.com` par une vraie adresse.
-- [ ] Remplacer les liens `github.com/siglopedia/siglopedia-desktop` par
-      l'URL de votre dépôt réel (recherchez ce texte dans tous les fichiers
-      `.html`).
-- [ ] Mettre à jour `<link rel="canonical">` et les balises
-      `og:*` dans `index.html` avec l'URL réelle du site.
-- [ ] Vérifier que `SigloPedia-Setup.exe` est bien publié dans une Release
-      GitHub avant de partager le lien de téléchargement.
+- **Site en ligne** : https://siglopedia.github.io/siglopedia-desktop/
+- **Dépôt GitHub** : https://github.com/siglopedia/siglopedia-desktop
+- Tous les liens du site (téléchargement, mentions légales, sitemap) pointent
+  déjà vers ces adresses réelles.
+
+## Prochaine étape : publier l'installateur
+
+Le bouton "Télécharger" du site pointe vers :
+```
+https://github.com/siglopedia/siglopedia-desktop/releases/latest/download/SigloPedia-Setup.exe
+```
+Ce lien ne fonctionnera qu'une fois qu'une **Release** contenant un fichier
+nommé exactement `SigloPedia-Setup.exe` aura été publiée sur GitHub
+(Releases → Create a new release → joindre le fichier → Publish).
+
+## Avant de republier le site après une modification
+
+- [ ] Si vous changez de domaine (nom de domaine personnalisé), pensez à
+      mettre à jour `<link rel="canonical">`, les balises `og:*` dans
+      `index.html`, ainsi que `robots.txt` et `sitemap.xml`.
+- [ ] Si vous changez de nom d'utilisateur ou de dépôt GitHub, recherchez
+      `github.com/siglopedia/siglopedia-desktop` dans tous les fichiers
+      `.html` et remplacez-le.
+
