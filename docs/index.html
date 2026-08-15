@@ -15,8 +15,21 @@
 <meta property="og:image" content="https://siglopedia.github.io/siglopedia-desktop/assets/icon-512.png">
 <meta name="twitter:card" content="summary">
 
-<link rel="icon" href="assets/favicon.png" type="image/png">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="assets/favicon-96.png" type="image/png" sizes="96x96">
+<link rel="icon" href="assets/favicon-48.png" type="image/png" sizes="48x48">
 <link rel="apple-touch-icon" href="assets/icon-180.png">
+
+<!-- Progressive Web App : rend le site installable comme une application
+     sur Android, iOS et ordinateur (icône sur l'écran d'accueil, plein
+     écran, fonctionnement hors-ligne). -->
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0b0c10">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="SigloPedia">
+
 <link rel="stylesheet" href="css/style.css">
 <script type="application/ld+json">
 {
@@ -39,6 +52,15 @@
     "@type": "Person",
     "name": "DJOAKPO Amour"
   }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "SigloPedia",
+  "url": "https://siglopedia.github.io/siglopedia-desktop/",
+  "logo": "https://siglopedia.github.io/siglopedia-desktop/assets/icon-512.png"
 }
 </script>
 </head>
@@ -238,7 +260,7 @@
           <p>Version actuelle : <strong>1.1.0</strong>. Fonctionne simplement sur Windows, sans configuration particulière.</p>
           <ul class="spec-list">
             <li><span>Système</span><b>Windows — installation simple</b></li>
-            <li><span>Taille</span><b>≈ 60 Mo</b></li>
+            <li><span>Taille</span><b>≈ 170 Mo</b></li>
             <li><span>Licence</span><b>Gratuite</b></li>
             <li><span>Compte requis</span><b>Non (profil invité disponible)</b></li>
             <li><span>Connexion requise</span><b>Non (fonctions en ligne optionnelles)</b></li>
