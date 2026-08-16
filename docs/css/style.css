@@ -824,6 +824,7 @@ section { padding: 88px 0; }
 @media (max-width: 900px) {
   .nav-links { display: none; }
   .nav-cta .btn-ghost,
+  .nav-cta #installBtn { display: none; }
   .nav-toggle { display: flex; align-items: center; justify-content: center; }
   .site-header.nav-open .nav-links {
     display: flex;
